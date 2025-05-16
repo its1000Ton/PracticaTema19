@@ -1,0 +1,45 @@
+.cuadrado
+{
+    width: 7rem;
+    height: 7rem;
+    background-color: rgb(47, 190, 190);
+    position: fixed;
+    animation-name: cuadrado-anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes cuadrado-anim 
+{
+    0% { 
+        background-color: rgb(47, 180, 190); 
+        top: 0; 
+        left: 0;
+        transform: rotate(0deg);
+        }
+    25% { 
+        background-color:yellow; 
+        top: 90vh;
+        left: 30%;
+        border-radius: 0;
+    }
+    50% { 
+        background-color:purple; 
+        top: 50vh; 
+        left: 45%;
+        border-radius: 25%;
+        }
+    75% { 
+        background-color: red; 
+        top: 90vh;
+        left: 70%;        
+        border-radius: 50%;
+        }
+    100%{ 
+        background-color: rgb(47, 190, 190); 
+        top:90vh; 
+        transform: rotate(360deg);
+        border-radius: 75%;
+        }
+}
