@@ -10,6 +10,11 @@
     animation-timing-function: ease-in-out;
 }
 
+.p{
+    text-align: center;
+    background-color: red;
+}
+
 @keyframes cuadrado-anim 
 {
     0% { 
